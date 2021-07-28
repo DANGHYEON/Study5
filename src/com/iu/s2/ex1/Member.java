@@ -18,6 +18,22 @@ public class Member {
 	}
 	
 	
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public int getMuge() {
+		return muge;
+	}
+
+	public void setMuge(int muge) {
+		this.muge = muge;
+	}
+
 	//데이터를 입력하는 메서드는 set멤버변수명 
 	public void setAge(int age) {
 		if(age>0 && age<150) {
